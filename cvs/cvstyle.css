@@ -1,37 +1,37 @@
-.dark-mode-btn {
-    display: inline-block;
-    position: relative;
+/* Set the default font family and font size */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
   }
   
-  .dark-mode-btn label {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    background-color: #ccc;
-    border-radius: 50%;
+  /* Set the maximum width of the page and center it */
+  .book {
+    max-width: 800px; /* Adjust the value to your desired width */
+    margin: 0 auto; /* Center the page horizontally */
   }
   
-  .dark-mode-btn label::after {
-    content: "";
-    display: block;
-    width: 16px;
-    height: 16px;
-    margin: 6px 0 0 7px;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
+  /* Set the font size and line height for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5rem; /* Adjust the value to your desired font size */
+    line-height: 1.2; /* Adjust the value to your desired line height */
   }
   
-  .dark-mode-btn input:checked + label::after {
-    transform: translateX(14px);
+  h2{
+    color: orange;
+  }
+  /* Set the font size and line height for paragraph text */
+  p, li, td {
+    font-size: 1rem; /* Adjust the value to your desired font size */
+    line-height: 1.5; /* Adjust the value to your desired line height */
   }
   
-  .dark-mode-btn input:focus + label,
-  .dark-mode-btn input:not(:checked) + label {
-    position: absolute;
-    left: -9999px;
+  /* Set the background color of code blocks */
+  pre {
+    background-color: #f6f8fa; /* Adjust the value to your desired color */
   }
-
   
+  /* Set the font size and line height of code blocks */
+  code {
+    font-size: 0.9rem; /* Adjust the value to your desired font size */
+    line-height: 1.2; /* Adjust the value to your desired line height */
+  }
