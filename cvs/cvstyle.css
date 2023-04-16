@@ -1,3 +1,29 @@
+.dark-mode-btn {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dark-mode-btn label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .dark-mode-btn label i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dark-mode-btn input:checked + label {
+    background-color: #f7b731;
+  }
+
+
 /* Set the default font family and font size */
 body {
     font-family: "Open Sans", sans-serif;
